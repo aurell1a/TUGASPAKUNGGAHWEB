@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display:  flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.siswa {
+    text-align: center;
+}
+
+.siswa img {
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.siswa button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: white;
+    border:none;
+    border-radius:  5px;
+    cursor: pointer;
+}
+
+.siswa button:hover {
+    background-color: #f59cbe;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+}
+
+.details table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+table{
+    padding: 12px;
+}
+
+.details th, .details td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.details th {
+    background-color: #f2f2f2;
+}
